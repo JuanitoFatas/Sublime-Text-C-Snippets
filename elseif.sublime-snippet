@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+ else if (${1:condition}){
+        ${2:if-statement};
+} else {
+        ${3:else-statement};
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>elseif</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.c</scope>
+</snippet>
